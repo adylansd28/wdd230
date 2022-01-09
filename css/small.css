@@ -1,0 +1,32 @@
+/* Prevent adjustments of font size after orientation changes  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+
+/*----------- HEADER --------------*/
+header {
+    
+}
+
+
+/*----------- NAVIGATION --------------*/
+nav {background-color: #eee;}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+    flex-basis: 25%;
+}
+
+/*----------- FOOTER --------------*/
+footer {background-color: #eee;}
+
