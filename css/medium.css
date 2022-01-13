@@ -1,9 +1,6 @@
-@media only screen and (min-width: 35rem) {
-
-    
-    
-    
-    
-    
-    
-} /* end of media query */
+@media only screen and (min-width: 32.5em) {
+    header, body {
+        max-width: 400px;
+        margin: 2em;
+    }
+ }   /* end of media query */

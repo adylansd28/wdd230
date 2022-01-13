@@ -1,32 +1,128 @@
-/* Prevent adjustments of font size after orientation changes  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+@import url('https://fonts.googleapis.com/css?family=Titillium-Web|Raleway');
 
-/* apply a natural box layout model to all elements */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+h1 {
+    font-family: Titillium-Web, Arial, Sans-serif;
+    color: #187582;
+    font-size: 380%;
+    text-shadow: 5px 5px 20px #187582;
+}
 
-/*----------- BODY --------------*/
 body {
-    font-size: 16px;
-    font-family: Verdana, sans-serif;
+    background-color: #187582;
 }
 
+img {
+    max-height: 200px;
+}
 
-/*----------- HEADER --------------*/
 header {
-    
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border: solid 1px black;
+    display: grid;
+    height: 260px;
+    width: 900px;
+    grid-template-columns: 300px auto;
+    padding: 2%;
+    border: 0;
+    box-shadow: 1px 1px 4px 1px #ccc;
+    border-radius: 10px;
 }
 
-
-/*----------- NAVIGATION --------------*/
-nav {background-color: #eee;}
-nav ul {
-    display: flex;
+img {
+    grid-column: 1/2;
+    height: 100%;
+    max-height: 70%;
+    margin: 2%;
+    margin-top: 5%;
+    margin-left: 30%;
+    padding: 1%;
+    border: 0;
+    box-shadow: 1px 1px 4px 1px #ccc;
+    border-radius: 10px;
 }
-nav ul li {
-    list-style-type: none;
-    flex-basis: 25%;
+
+#my-name-title {
+    display:inline;
+    grid-column: 2/3;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 15%;
+    margin-left: 7%; 
 }
 
-/*----------- FOOTER --------------*/
-footer {background-color: #eee;}
+main {
+    background-color: #E8FCFE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: 3%;
+    border: solid 1px black;
+    display: grid;
+    padding: 2%;
+    border: 0;
+    box-shadow: 1px 1px 4px 1px #ccc;
+    border-radius: 10px;
+}
+
+main h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 350%;
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+li {
+    font-family: Raleway, Arial, Sans-serif;
+    font-size: 150%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Raleway, Arial, Sans-serif;
+}
+
+div {
+    width: 80%;
+    height: 1px;
+    background-color: black;
+    margin-left: 10%;
+}
+
+footer {
+    background-color: #E8FCFE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 3%;
+    border: solid 1px black;
+    display: grid;
+    padding: 0;
+    border: 0;
+    box-shadow: 1px 1px 4px 1px #ccc;
+    border-radius: 10px;
+}
+
+#last-updated-p {
+    color: #187582;
+}
+
+@media screen and (max-width: 550px) { 
+    /* beginning of media query */
+        .home-grid {
+        display: block;
+        }
+        
+    /* end of media query */ 
+    } 
 
