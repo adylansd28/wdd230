@@ -1,0 +1,211 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 120%;
+}
+
+ul li {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* HEADER */
+#logo-image {
+    float: left;
+    max-width: 50px;
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+header {
+    margin-top: 4%;
+    margin-bottom: 0;
+    background-color: white;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 50%;
+    line-height: 70px;
+    max-width: 350px;
+}
+
+header h1 {
+    color: #484349;
+    display: block;
+    margin-left: 20%;
+    margin-bottom: 0;
+    font-size: 170%;
+    font-family: 'Merriweather', serif;
+}
+
+/* NAVIGATION*/
+
+nav {
+    background-color: white;
+    margin-top: 0;
+    border-radius: 0px 0px 5px 5px;
+    max-width: 350px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    color: #484349;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+nav ul li a:hover {
+    background-color: #51a3a3;
+    color: white;
+    border: 1px #484349 solid;
+    border-radius: 5px;
+}
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+
+/* BODY */
+body {
+    max-width: 350px;
+    background-color: #488286;
+    margin: 0 auto;
+}
+
+/* MAIN */
+
+main {
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 350px;
+    padding: 10px;
+}
+
+main h2, main h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main ul {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#personas-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#logo-image-example {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px; 
+}
+
+.line {
+    display: block;
+    width: 300px;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+/* FOOTER*/
+footer {
+    padding: .5rem 2%;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 350px;
+}
+
+.scenarios h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.scenarios ul {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.scenarios ul li {
+    padding: 2px;
+}
+
+.target-audience h2 {
+    padding-top: 15px;
+}
+
+.color-scheme p {
+    text-align: left;
+    font-size: 100%;
+
+}
+
+.color-scheme h2 {
+    padding: 15px;
+}
+
+.color-scheme h3 {
+    font-size: 120%;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+#color1 {
+    border-top: 1px solid black;
+}
+
+#color2 {
+    background-color: #EEEEEE;
+}
+
+#color3 {
+    background-color: #51A3A3;
+    color: white;
+}
+
+#color4 {
+    background-color: #488286; 
+    color: white;
+}
+
+#color5 {
+    background-color: #484349;
+    color: white;
+}

@@ -1,0 +1,81 @@
+ /* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+    /*----------- BODY --------------*/
+    
+    body {
+        max-width: 100%;
+    }
+
+    
+    
+    /*----------- HEADER --------------*/
+
+    header {
+        max-width: 90%;
+        background-color: white;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    header h1 {
+        display: inline;
+        font-size: 300%;
+        padding: 0;
+        margin-left: 10%;
+        text-align: bottom;
+        line-height: 620%;
+    }
+
+    #logo-image {
+        max-width: 100px;
+        margin-left: 5%;
+        padding: 0;
+    }
+    
+    /*----------- NAVIGATION --------------*/
+    
+    nav {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    nav {
+        background-color: #484349;
+    }
+
+    nav ul li a{
+        color: #EEEEEE;
+        border: 0px;
+        float: left;
+        max-width: auto;
+        padding: 2%;
+        margin-left: 8%;
+        text-align: center;
+    }
+    
+    
+    /*----------- MAIN --------------*/
+    
+    main {
+        max-width: 90%;
+    }
+
+    main ul li{
+        margin-left: 30%;
+    }
+
+    .color-scheme p {
+        text-align: center;
+    }
+
+    .p1 {
+        margin-top: 2%;
+    }
+    
+    /*----------- FOOTER --------------*/
+        
+    } /* end of media query */
