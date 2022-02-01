@@ -9,7 +9,8 @@ body {
 }
 
 body, header, nav, main, footer {
-    max-width: 375px;
+    max-width: 100%;
+    width: 100%;
 }
 
 /*----------- BODY --------------*/
@@ -132,7 +133,7 @@ nav ul.open {
 
 main {
     background-color: #51A3A3;
-    height: 1930px;
+    padding-bottom: 0.5%;
 }
 
 main h1 {
@@ -147,7 +148,7 @@ main h1 {
 }
 
 .home-grid img {
-    width: 350px;
+    width: 95%;
     display: block;
     margin-left: auto;
     margin-right: auto;
