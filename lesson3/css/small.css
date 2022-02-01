@@ -73,15 +73,18 @@ nav ul li a{
     border-bottom: 1px solid black;
 }
 
+
+nav ul li.active a {
+    background-color: #fff;
+    color: #484349;
+    border: 1px #484349 solid;
+}
+
 nav ul li a:hover {
     background-color: #51a3a3;
     color: white;
     border: 1px #484349 solid;
     border-radius: 5px;
-}
-nav ul li.active a {
-    background-color: #000;
-    color: #fff;
 }
 
 /* BODY */
