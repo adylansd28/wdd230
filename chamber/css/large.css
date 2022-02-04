@@ -39,7 +39,8 @@
     /*----------- MAIN --------------*/
     
     main {
-        height: 720px;
+        height: 100%;
+        padding-bottom: 2%;
     }
 
     .home-grid {
@@ -166,7 +167,9 @@
         margin-top: 5%;
     }
 
-
-    
+    .line {
+        margin-left: 10%;
+        width: 76.5%;
+     }
     
     } /* end of media query */

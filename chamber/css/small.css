@@ -26,6 +26,21 @@ p, a {
 }
     
 /*----------- HEADER --------------*/
+#message {
+    background-color: #51a3a327;
+    text-align: center;
+    font-family: 'Raleway', Arial, sans-serif;
+    padding: 0.5%;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.hideme {
+    display: none;
+}
+
+.showme {
+    display: block;
+}
 
 header img {
     display: block;
@@ -98,7 +113,7 @@ nav ul li a {
 
 .active {
     background-color: #12888856;
-    color: rgba(0,0,0,0.5);
+    color: #484349;
 }
 
 nav ul li a:hover {
@@ -133,7 +148,8 @@ nav ul.open {
 
 main {
     background-color: #51A3A3;
-    padding-bottom: 0.5%;
+    height: 100%;
+    padding-bottom: 2%;
 }
 
 main h1 {
@@ -191,8 +207,8 @@ footer a {
 
 .line {
     margin-top: 3%;
-    margin-left: 5%;
+    margin-left: 2.5%;
     background-color: black;
     height: 1px;
-    width: 90%;
+    width: 95%;
 }
