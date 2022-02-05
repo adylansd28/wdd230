@@ -20,7 +20,7 @@ document.querySelector("#last-updated").innerHTML = date;
 
 
 /* Monday and Tuesday Message */
-const dayNumber =now.getDay() - 4;
+const dayNumber =now.getDay();
 const message = document.getElementById("message");
 
 if ((dayNumber == 1) || (dayNumber == 2)) {
