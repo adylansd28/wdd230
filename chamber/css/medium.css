@@ -104,6 +104,16 @@
       overflow: hidden;
    }
 
+   .myphoto{
+      margin-left: 10%;
+      width: 80%;
+   }
+
+   .myphoto img{
+      max-width: 100%;
+      margin-top: 2.5%;
+   }
+
    .link-1 {
       grid-column: 1/3;
       grid-row: 1/2;
@@ -150,6 +160,11 @@
    .link-7 {
       grid-column: 2/3;
       grid-row: 5/6;
+   }
+
+   .windchill {
+      width: 79.5%;
+      margin-left: 10%;
    }
 
    /*----------- FOOTER --------------*/

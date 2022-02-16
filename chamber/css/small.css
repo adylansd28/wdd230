@@ -173,6 +173,26 @@ main h1 {
     box-shadow: 5px 5px 15px #004444;
 }
 
+.myphoto{
+    margin-left: 2.5%;
+    width: 95%;
+}
+
+.myphoto img {
+    margin-top: 2%;
+    max-width: 100%;
+}
+
+.windchill {
+    margin-top: 2%;
+    margin-left: 2.5%;
+    background-color: #fff;
+    width: 95%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+}
+
 /*----------- FOOTER --------------*/
 
 .logo-img-footer {

@@ -58,7 +58,15 @@
         </nav>
 
         <!-- MAIN HERE -->
-        <main>
+        <main class="clearfix">
+
+            <figure class="myphoto">
+                <img src="images/heroSrc1050px.jpg" alt="hero" size="50vw"
+                    srcset="images/heroSrc400px.jpg 400w,
+                        images/heroSrc600px.jpg 600w,
+                        images/heroSrc900px.jpg 900w,"
+                >
+            </figure>
 
             <h1>Home</h1>
 
@@ -72,6 +80,12 @@
                 <a href="#" class="link-5"><img src="images/join.png" class="join" alt="join"></a>
                 <a href="#" class="link-2"><img src="images/newsrelease.png" class="newsrelease" alt="news release"></a>
 
+            </div>
+
+            <div class="windchill">
+                <p>Current Temperature is <span id="temp">45</span>&deg;</p>
+                <p>Current Wind Speed is <span id="speed">60</span>mph</p>
+                <p id="chill">message</p>
             </div>
 
         </main>
@@ -99,6 +113,7 @@
         </footer>
 
         <script src="js/script.js"></script>
+        <script src="js/windchill.js"></script>
 
     </body>
   
