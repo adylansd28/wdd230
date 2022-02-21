@@ -1,0 +1,43 @@
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=vice-width, initial-scale=1">
+        <meta name="description" content="Lazy loading images."/>
+        <meta name="author" content="Dilan Salas">
+        <title>Progressive Loading of Images</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <LINK rel=StyleSheet href="styles.css" type="text/css">
+
+    </head>
+
+    <body>
+
+        <h1>Progressive Loading of Images</h1>
+        <picture>
+            <img src="images/placeholder.png" width=300 data-src="//picsum.photos/300/400" alt="Photo">
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.png" width=300 data-src="//unsplash.it/300/400" alt="">
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.png" width=300 data-src="//placeimg.com/300/400/architecture" alt="">
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.png" width=300 data-src="//loremflickr.com/300/400" alt="">
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.png" width=300 data-src="//placebeard.it/300/400" alt="">
+        </picture>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
