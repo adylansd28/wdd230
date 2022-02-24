@@ -15,7 +15,7 @@ body, header, nav, main, footer {
 
 /*----------- BODY --------------*/
 
-h1, h2 {
+h1, h2, h3{
     font-family: 'Merriweather', Arial, serif;
     color: #484349;
 }
@@ -26,6 +26,16 @@ p, a {
 }
     
 /*----------- HEADER --------------*/
+
+.p-header {
+    text-align: center;
+    font-size: 102%;
+    max-width: 100%;
+    margin: 0;
+    background-color: #51a3a3a1;
+    padding: 2%;
+}
+
 #message {
     background-color: #51a3a327;
     text-align: center;
@@ -191,6 +201,58 @@ main h1 {
     text-align: center;
     padding: 1%;
     border-radius: 10px;
+}
+
+.main-discover img[data-src] {
+    filter: blur(2px);
+    opacity: 0.5;
+}
+  
+.main-discover img {
+    filter: blur(0%);
+    opacity: 1;
+    transition: all 0.7s;
+    border-radius: 20px;
+    margin: 2%;
+    margin-left: 0;
+    width: 60vw;
+}
+
+.main-discover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover-h1 {
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Raleway', Arial, sans-serif;
+    color: #282629;
+}
+
+
+.main-discover-div {
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.main-discover-div h2, .main-discover-div h3 {
+    text-align: center;
+}
+
+.main-discover p{
+    font-size: 96.5%;
+    text-align: center;
+    padding: 0 auto;
+    margin: 5%;
+    padding: 2%;
 }
 
 /*----------- FOOTER --------------*/

@@ -24,7 +24,7 @@ const dayNumber =now.getDay();
 const message = document.getElementById("message");
 
 if ((dayNumber == 1) || (dayNumber == 2)) {
-    message.classList.add("showme")
+    message.classList.add("showme");
 } else {
-    message.classList.add("hideme")
-}
+    message.classList.add("hideme");
+};
