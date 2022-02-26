@@ -1,0 +1,71 @@
+table {
+    margin-top: 5%;
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+    font-family:  Ubuntu, sans-serif;
+    border-left: 1px solid rgb(133, 133, 133);
+    border-top: 1px solid rgb(133, 133, 133);
+    box-shadow: 5px 5px 20px 0px rgb(15, 68, 92);
+}
+
+thead {
+    background-color: rgb(117, 173, 199);
+}
+
+tfoot {
+    font-size: 70%;
+    background-color: rgb(117, 173, 199);
+}
+
+th, td {
+    padding: 1%;
+    border-right: 1px solid rgb(133, 133, 133);
+    border-bottom: 1px solid rgb(133, 133, 133);
+}
+
+th {
+    background-color: rgb(29, 128, 173);
+    color: white;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 130%;
+}
+
+table tbody tr:nth-child(2n) {
+    background-color: rgb(200, 221, 221);
+}
+
+table tbody tr:nth-child(2n+1) {
+    background-color: rgb(212, 247, 247);
+}
+
+.mark {
+    color: white;
+    background-color: rgb(29, 128, 173);
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Medium Screens*/
+@media only screen and (min-width: 35rem) {
+    table {
+        margin: 0 auto;
+        margin-top: 3%;
+        max-width: 40%;
+    }
+}
+
+/* Large Screens*/
+@media only screen and (min-width: 64rem) {
+    table {
+        margin: 0 auto;
+        margin-top: 2%;
+        max-width: 30%;
+    }
+}
