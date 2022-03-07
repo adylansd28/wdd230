@@ -255,6 +255,73 @@ figcaption {
     padding: 2%;
 }
 
+form {
+    margin-left: 2.5%;
+    font-family: 'Raleway', Arial, sans-serif;
+    max-width: 96%;
+    color: #484349;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.main-fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    max-width: 96%;
+    margin-left: 2%;
+    border-radius: 10px;
+    border: 1px solid #484349;
+}
+
+.form-title {
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+form label {
+    margin-top: 5%;
+    padding-left: 2%;
+}
+
+.submit {
+    margin-top: 5%;
+    max-width: 50%;
+    margin-left: 23%;
+    margin-bottom: 2%;
+    color: #484349;
+    border-radius: 5px;
+    border: 1px solid #484349;
+}
+
+form textarea{
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+form label input {
+    margin-left: 2%;
+    border-radius: 5px;
+    border: 1px solid #484349;
+}
+
+.radio-fieldset {
+    margin-top: 5%;
+    border-radius: 5px;
+    border: 1px solid #484349;
+}
+
+.businessName {
+    max-width: 45%;
+}
+
+.thankyou-p {
+    margin-left: 2%;
+    padding: 2%;
+    line-height: 150%;
+}
+
 /*----------- FOOTER --------------*/
 
 .logo-img-footer {

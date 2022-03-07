@@ -4,12 +4,12 @@
 
     <head>
 
-      <title>Quito Chamber of Commerce | Home</title>
+      <title>Quito Chamber of Commerce | Join</title>
       <meta charset="utf-8">
 
       <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name ="description" content="Quito Chamber of Commerce Web Site">
+      <meta name ="description" content="Quito Chamber of Commerce Web Site | Join">
 
       <!-- STYLE SHEETS -->
       <link href="css/normalize.css" rel="stylesheet">
@@ -32,7 +32,6 @@
         <!-- HEADER HERE -->
         <header>
 
-            <div id="message">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
             <img id="logo-image" src="images/quito-chamber-of-commerce-logo.png" alt="Quito Chamber of Commerce Logo">
             <h1 id="title-page">Quito Chamber of Commerce</h1>
             <h2>The Chamber of Commerce with you</h2>
@@ -47,9 +46,9 @@
 
             <ul id="primary-nav">
 
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a class="active" href="join.thml">Join</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Contact</a></li>
 
@@ -58,35 +57,35 @@
         </nav>
 
         <!-- MAIN HERE -->
-        <main class="clearfix">
+        <main class="clearfix main-join">
 
-            <figure class="myphoto">
-                <img src="images/heroSrc1050px.jpg" alt="hero" size="50vw"
-                    srcset="images/heroSrc400px.jpg 400w,
-                        images/heroSrc600px.jpg 600w,
-                        images/heroSrc900px.jpg 900w,"
-                >  
-            </figure>
+            <h1>Join</h1>
 
-            <h1>Home</h1>
+            <form method="get" action="thankyou.html">
 
-            <div class="home-grid">
+                <fieldset class="main-fieldset">
+                    <legend class="form-title" name="form-title">Join Us</legend>
+                    <label>First Name* <input type="text" name="fname" required></label>
+                    <label>Last Name* <input type="text" name="lname" required></label>
+                    <label>Position Title <input type="text" name="positionTitle"></label>
+                    <label>E-mail* <input type="email" name="email" required placeholder="someone@example.com"></label>
+                    <label>Telephone* <input type="tel" name="phone" required></label>
+                    <label>Business Name Title* <input class="businessName" type="text" name="businessNameTitle" required></label>
 
-                <a href="#" class="link-6"><img src="images/event.png"class="event" alt="event"></a>
-                <a href="#" class="link-1"><img src="images/call-to-action.png"class="call-to-action" alt="Hero with site name and call to action"></a>
-                <a href="#" class="link-3"><img src="images/spotlight-1.png" class="spotlight-1" alt="spotlight 1"></a>
-                <a href="#" class="link-7"><img src="images/weather.png" class="weather" alt="weather"></a>
-                <a href="#" class="link-4"><img src="images/spotlight2.png" class="spotlight2" alt="spotlight 2"></a>
-                <a href="#" class="link-5"><img src="images/join.png" class="join" alt="join"></a>
-                <a href="#" class="link-2"><img src="images/newsrelease.png" class="newsrelease" alt="news release"></a>
+                    <fieldset class="radio-fieldset">
+                        <legend>Membership Level</legend>
+                        <label><input class="radio" type="radio" name="membership" value="guest"> Guest</label>
+                        <label><input class="radio" type="radio" name="membership" value="companion"> Companion</label>
+                        <label><input class="radio" type="radio" name="membership" value="partner"> Partner</label>
+                    </fieldset>
 
-            </div>
+                    <label>Business description <textarea name="textarea" rows="5" cols="37" name="businessName" required></textarea></label>
+                    <input type="hidden" name="date">
 
-            <div class="windchill">
-                <p>Current Temperature is <span id="temp">45</span>&deg;</p>
-                <p>Current Wind Speed is <span id="speed">60</span>mph</p>
-                <p id="chill">message</p>
-            </div>
+                    <input class="submit" type="submit" value="Submit">
+
+                </fieldset>
+            </form>
 
         </main>
 

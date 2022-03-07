@@ -178,7 +178,7 @@
       transition: all 0.7s;
       border-radius: 20px;
       margin: 2%;
-  }
+   }
 
   .main-discover img:hover {
    border: 2px solid rgba(1,1,1,0.7);
@@ -186,11 +186,68 @@
    filter: blur(1px); 
   }
 
+  form {
+   max-width: 50%;
+   margin: 0 auto;
+   align-items: center;
+  }
+
+  .main-fieldset {
+     margin: 0 auto;
+     align-items: center;
+  }
+
+  form label {
+   margin-left: 0;
+   text-align: center;
+  }
+
+  form label input {
+   margin-left: 0;
+   display: block;
+  }
+
+  .radio{
+   display: inline;
+  }
+
+  form fieldset {
+   text-align: center;
+   width: 40%;
+  }
+
+  textarea {
+     display: block;
+  }
+
+  .businessName {
+     max-width: 100%;
+  }
+
+  .radio-fieldset {
+   width: 90%;
+  }
+   .submit {
+   width: 20%;
+   margin-left: 0;
+  }
+
+  .form-title {
+     font-size: 200%;
+     font-weight: bold;
+  }
+
+  .thankyou-p {
+   margin-left: 10%;
+   line-height: 150%;
+   }
+
    /*----------- FOOTER --------------*/
 
    .line {
       margin-left: 10%;
       width: 79.2%;
+      margin-top: 4%;
    }
         
 } /* end of media query */

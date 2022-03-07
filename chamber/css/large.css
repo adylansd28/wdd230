@@ -116,6 +116,19 @@
         
     width: 82%;
     }
+
+    form {
+        width: 40%;
+    }
+
+    .main-fieldset {
+        width: 100%;
+    }
+
+    .thankyou-p {
+        margin-left: 8%;
+        line-height: 150%;
+    }
     
     /*----------- FOOTER --------------*/
 
